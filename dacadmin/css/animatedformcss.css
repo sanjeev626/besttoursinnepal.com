@@ -1,0 +1,32 @@
+.clear{
+	clear:both;
+}
+/* Form Style */
+.form_wrapper{
+	background:#fff;
+	border:1px solid #ddd;
+	width:370px;
+	padding:0;
+	-moz-box-shadow:1px 1px 7px #ccc;
+	-webkit-box-shadow:1px 1px 7px #ccc;
+	box-shadow:1px 1px 7px #ccc;
+	font:14px "Myriad Pro","Century Gothic",Arial, Helvetica, sans-serif;
+}
+.form_wrapper form{
+	display:none;
+	background:#fff;
+}
+.form_wrapper input{
+	font:14px "Myriad Pro","Century Gothic",Arial, Helvetica, sans-serif;
+}
+form.active{
+	display:block;
+}
+.form_wrapper a.forgot{
+	font-style:italic;
+	line-height:24px;
+	color:#ffa800;
+}
+.form_wrapper a.forgot:hover{
+	color:#000;
+}

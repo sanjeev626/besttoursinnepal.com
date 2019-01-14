@@ -1,0 +1,1024 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0 auto;
+	padding:0;		
+	width:1000px;	
+}
+.main
+{	
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:0 10px;
+}
+	.header{
+		height:125px;
+		overflow:hidden;
+		padding:15px 0 0 0;
+	}
+		.logo{
+			background:url(img/logo.png) no-repeat;
+			float:left;
+			width:225px;
+			height:124px;
+		}
+		.social{
+			float:left;
+			overflow:hidden;
+			margin:60px 0 0 155px;
+		}
+			.social ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+			.social ul li{
+				float:left;
+				margin-left:6px;
+			}
+			.social ul li a{
+				display:block;
+				width:42px;
+				height:41px;
+				text-decoration:none;
+				
+			}
+			.social ul li a:hover{
+				
+			}
+			li#fb a{
+				background:url(img/social.jpg) no-repeat;
+				
+			}
+			li#fb a:hover{
+				background:url(img/social-hv.jpg) no-repeat;
+			}
+			li#tw a{
+				background:url(img/social.jpg) no-repeat -48px 0;
+				
+			}
+			li#tw a:hover{
+				background:url(img/social-hv.jpg) no-repeat -48px 0;
+			}li#gp a{
+				background:url(img/social.jpg) no-repeat -96px 0;
+			}
+			li#gp a:hover{
+				background:url(img/social-hv.jpg) no-repeat -96px 0;
+			}li#yt a{
+				background:url(img/social.jpg) no-repeat -144px 0;
+			}
+			li#yt a:hover{
+				background:url(img/social-hv.jpg) no-repeat -144px 0;
+			}li#ta a{
+				background:url(img/social.jpg) no-repeat -192px 0;
+			}
+			li#ta a:hover{
+				background:url(img/social-hv.jpg) no-repeat -192px 0;
+			}li#sk a{
+				background:url(img/social.jpg) no-repeat -240px 0;
+			}
+			li#sk a:hover{
+				background:url(img/social-hv.jpg) no-repeat -240px 0;
+			}
+		.qcontact{
+			float:right;
+			overflow:hidden;
+			
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:18px;
+			width:265px;
+		}
+			.ttel{
+				height:33px;
+				margin-bottom:17px;	
+				padding:10px 0 0 80px;
+				background:url(img/phone-ico.jpg) no-repeat;
+				color:#f39b41;
+			}
+			.rct{
+				height:33px;
+				margin-bottom:17px;	
+				padding:10px 0 0 80px;
+				background:url(img/mail-ico.jpg) no-repeat;
+				
+			}
+				.rct a{
+					color:#77b313;
+					text-decoration:none;
+				}
+				.rct a:hover{
+					text-decoration:underline;
+				}
+				
+	.banner{
+		clear:both;
+		overflow:hidden;
+		height:467px;
+		background:url(img/banner-shadow.jpg) no-repeat 0 bottom;	
+	}
+		.tbg{
+			z-index:15; position:absolute;	
+			height:50px;
+		}
+		.bbg{
+			z-index:16; position:absolute;	
+			height:50px;
+			margin-top:-50px;
+		}
+		.tmenu{
+			clear:both;
+			overflow:hidden;
+			float:right;
+			width:980px;
+			z-index:20; position:absolute;	
+			height:438px;
+		}
+			.tmenu ul{
+				margin:4px 0 0 190px;
+				padding:0;
+				list-style:none;
+			}
+			.tmenu ul li{
+				float:left;
+			}
+			.tmenu ul li a{
+				display:block;
+				text-decoration:none;
+				height:20px;
+				background:#00aaff;
+				padding:8px 30px;
+				color:#FFF;
+				margin-left:1px;
+			}
+			.tmenu ul li a:hover{
+				background:#f76419;
+				padding:12px 30px;
+				height:12px;
+			}
+			
+			/*Menu Drop*/
+.menudrop, .menudrop1, .menudrop2{
+			
+			margin:36px 0 0 0;
+			width:958px;
+			border:1px solid #89ddff;
+			background:#FFF;
+			position:absolute;				
+			z-index: 99999;
+			display:none;
+			clear:both;	
+			padding:10px 0 20px 20px;
+			
+			
+		}
+			.menublock, .menublock1{
+				color:#000;
+				width:166px;
+				
+				float:left;	
+				margin-right:25px;
+			}
+			.menublock1{
+				width:226px;
+				margin-right:25px;
+					
+			}
+			
+				.mstitle{
+					font-size:16px;
+					padding:5px 0;
+						
+				}
+					.mstitle a{
+						text-decoration:none;
+						color:#000;
+					}
+					.mstitle a:hover{
+						text-decoration:underline;
+					}
+				.msimg{
+					border-top:1px dotted #CCC;
+					padding:5px 0;
+				}
+				.msbrief{
+					color:#666;
+					border-top:1px dotted #CCC;	
+					padding:5px 0;
+					text-align:justify;
+					font-size:12px;
+				}
+				.msbrief ul{
+					margin:0;
+					padding:0;
+					list-style:none;
+				}
+				.msbrief ul li{
+					
+				}
+				.msbrief ul li a{
+					display:block;
+					color:#666;
+					background:#eee;
+					height:17px;
+					width:160px;
+					margin-bottom:2px;
+					padding:4px 5px;
+					font-size:12px;
+					text-align:left;
+				}
+				.msbrief ul li a:hover{
+					background:#FFF;
+					height:17px;
+					width:160px;
+					margin-bottom:2px;
+					padding:4px 5px;
+					color:#30F;
+				}
+				
+				.trplist{
+					overflow:hidden;
+					margin:10px 0;
+				}
+				.trplist ul{
+					margin:0;
+					padding:0;
+					list-style:none;
+				}
+				.trplist ul li{
+					
+				}
+				.trplist ul li a{
+					display:block;
+					border-bottom:1px dotted #09F;
+					
+					width:166px;
+					height:24px;
+					color:#333;
+					background:#fff;
+					margin:0;
+					padding:4px 0;
+					font-size:12px;
+				}
+				.trplist ul li a:hover{
+					border-bottom:1px dotted #09F;
+					
+					width:166px;
+					height:24px;
+					color:#F60;
+					background:#fff;
+					margin:0;
+					padding:4px 2px;
+				}
+				
+					.more a{
+						display:block;
+						background:#F60;
+						
+						text-decoration:none;
+						color:#FFF;
+						width:100px;
+						text-align:center;
+						padding:2px 0;
+						margin-top:10px;
+						border-radius:4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+					.more a:hover{
+						background:#000;
+							
+					}
+		.exp{
+			overflow:hidden;
+			margin:400px 0 0 0;
+			
+			height:50px;
+			clear:both;
+				
+		}
+			.tit{
+				color:#FFF;
+				float:left;
+				font-size:18px;
+				margin:5px 0 0 25px;
+			}
+			.vtid{
+				float:right;
+				overflow:hidden;
+				margin-right:25px;
+			}
+				.vtid a{
+					display:block;
+					text-decoration:none;
+					background:url(img/vtid-btn.png) no-repeat;
+					width:185px;
+					height:34px;
+					color:#FFF;
+					font-size:14px;
+					padding:9px 0 0 12px;
+				}
+				.vtid a:hover{
+					background:url(img/vtid-btn-hv.png) no-repeat;
+				}
+				
+	.mid{
+		clear:both;
+		overflow:hidden;
+	}
+		.ptit{
+			overflow:hidden;
+			
+			height:69px;
+			padding:25px 0 0 0;
+			
+		}
+		.ptit h1{
+			margin:0;
+			padding:0;
+			text-align:center;
+			font-size:40px;
+			font-family:"Times New Roman", Times, serif;
+			background:url(img/h1-tit-bg.gif) repeat-x;
+			float:left;
+			
+			width:100%;
+		}
+		.seafix{
+			clear:both;
+			overflow:hidden;
+			font-family:"Times New Roman", Times, serif;
+			font-size:14px;
+			margin-bottom:45px;
+		}
+			.sea{
+				float:left;
+				margin-left:250px;
+			}
+				.sea a{
+					text-decoration:none;
+					color:#53a8ff;
+				}
+				.sea a:hover, .fix a:hover{
+					text-decoration:underline;
+					color:#000;
+				}
+			.fix{
+				float:right;
+				margin-right:260px;
+			}
+				.fix a{
+					text-decoration:none;
+					color:#ff7800;
+				}
+		.triplist{
+			clear:both;
+			overflow:hidden;
+			
+			
+		}
+			.tblock{
+				overflow:hidden;
+				float:left;
+				width:307px;
+				
+				margin:0 0 30px 15px;	
+				
+			}
+				.tplm{
+					overflow:hidden;
+				}
+				.tplm a{
+					display:block;
+					text-decoration:none;
+					background:url(img/learn-more.png) no-repeat right 22px;
+					width:307px;
+					height:192px;
+					border-bottom:3px solid #0a0a0a;
+				}
+				.tplm a:hover{
+					background:url(img/learn-more-hv.png) no-repeat right 22px;
+					border-bottom:3px solid #C00;	
+				}
+				.trnm{
+					overflow:hidden;
+				}
+				.trnm a{
+					display:block;
+					font-size:15px;
+					text-align:center;
+					color:#FFF;
+					text-decoration:none;
+					background:#1b1e21;
+					padding:5px 0;
+					margin:0 12px 0 5px;
+					border-bottom-left-radius:5px;
+					-moz-border-bottom-left-radius: 5px;
+					-webkit-border-bottom-left-radius: 5px;
+					border-bottom-right-radius:5px;
+					-moz-border-bottom-right-radius: 5px;
+					-webkit-border-bottom-right-radius: 5px;
+				}
+				.trnm a:hover{
+					background:#C00;
+				}
+				.durprc{
+					overflow:hidden;
+					margin:20px 0 20px 40px;
+				}
+					.dur{
+						padding:0 0 0 30px;
+						background:url(img/duration-ico.gif) no-repeat;
+						margin-bottom:10px;	
+					}
+					.prc{
+						padding:0 0 0 30px;
+						background:url(img/price-ico.gif) no-repeat;
+					}
+					
+	.bottom{
+		clear:both;
+		overflow:hidden;
+		margin:20px 0 0 0;
+	}
+		.affacc{
+			overflow:hidden;
+			background:url(img/affiliation-we-accept-line.gif) no-repeat 0 top;
+			height:110px;
+			padding:45px 0 0 0;
+		}
+			.aff{
+				overflow:hidden;
+				float:left;
+			}
+				.aff img{
+					margin:0 25px 0 0;
+					padding:0;
+					border:none;	
+				}
+			.acc{
+				overflow:hidden;
+				float:right;
+			}
+		.cpt{
+			clear:both;
+			overflow:hidden;
+			text-align:center;
+			border-top:1px solid #a3d0ff;
+			padding:20px 0;
+			color:#FFF;
+			line-height:22px;
+			background:#036;
+		}
+			.cpt a{
+				text-decoration:none;
+				color:#FF0;
+			}
+			.cpt a:hover{
+				text-decoration:underline;
+			}
+			
+/*Trip Package*/
+.ttb{
+	overflow:hidden;
+	clear:both;
+	
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	height:60px;
+	text-align:center;
+	line-height:24px;
+}
+	.td{
+		float:left;
+		width:230px;
+		margin-right:115px;
+	}
+	.tc{
+		float:left;
+		width:290px;
+		
+	}
+	.bs{
+		float:right;
+		width:230px;
+		
+	}
+
+.lcont{
+	float:left;
+	overflow:hidden;
+	width:740px;
+	margin-right:10px;
+}
+	.ptb{
+		overflow:hidden;
+		margin-bottom:10px;
+	}
+		.stit{
+			float:left;
+			font-size:28px;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			color:#1f4c4c;
+			margin:25px 155px 0 25px;
+		}
+		.bbtn1, .bbtn2, .bbtn3{
+			overflow:hidden;
+		}
+		.bbtn2{
+			margin:20px 0 20px 250px;
+		}
+		.bbtn3{
+			margin:20px 10px;	
+		}
+		.bbtn1 a, .bbtn2 a, .bbtn3 a{
+			display:block;
+			text-decoration:none;
+			background:url(img/btn-bookthistripnow.jpg) no-repeat;
+			width:208px;
+			height:69px;
+		}
+		.bbtn1 a:hover, .bbtn2 a:hover, .bbtn3 a:hover{
+			background:url(img/btn-bookthistripnow-hv.jpg) no-repeat;
+		}
+		
+		.tripbox{
+			border:1px solid #c37d60;;
+			overflow:hidden;
+			width:728px;
+			padding:5px;
+			margin-bottom:50px;
+		}
+		
+		.tdes{
+			clear:both;
+			overflow:hidden;
+			
+			padding:15px 20px 25px 20px;	
+		}
+			.tdes p{
+				margin:0;
+				padding:0;
+				text-align:justify;
+				color:#1f4c4c;	
+			}
+			
+		
+		.alldetail{
+			clear:both;
+			overflow:hidden;
+			margin-top:20px;
+		}
+			/*Trip JQuery*/
+		ul.tabNavigation1 {
+			margin: 0 0 0 15px;
+			padding: 0;
+			float: left;
+			list-style: none;
+			 /*--Set height of tabs--*/
+			
+			width: 100%;
+		}
+		ul.tabNavigation1 li {
+			float: left;
+			margin:0;
+			padding: 0;
+			
+			 /*--Subtract 1px from the height of the unordered list--*/
+			/*--Vertically aligns the text within the tab--*/
+			
+			
+			 /*--Pull the list item down 1px--*/
+			overflow: hidden;
+			position: relative;
+			background: #FFF;
+			margin-right:1px;
+		}
+		ul.tabNavigation1 li a {
+			text-decoration: none;
+			color: #FFF;
+			display: block;
+			background:#024d7f;
+			text-align:center;
+			height:20px;
+			
+			font-size:14px;
+			
+			font-family:Tahoma, Geneva, sans-serif;
+			padding:7px 15px;
+			
+			
+			border-radius:1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+			
+			 /*--Gives the bevel look with a 1px white border inside the list item--*/
+			
+			
+		}
+		ul.tabNavigation1 li a:hover {
+			background:#e14f00;
+			text-decoration:none;
+			color:#FFF;
+			height:16px;
+			padding:9px 15px;
+			
+			border-radius:1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+		}
+		html ul.tabNavigation1 li.active, html ul.tabNavigation1 li.active a, html ul.tabNavigation1 li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+			background:#e14f00;
+			color:#FFF;
+			
+			
+			border-radius:1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+			/*--Makes the active tab look like it's connected with its content--*/
+		}
+
+	
+		/*Tab Content*/
+		.tabContainers1, .tabContainers2 {
+			border:1px solid #1c8dd9;
+			
+			overflow: hidden;
+			clear: both;
+			float: left; 
+			
+			margin-top:5px;
+			width:726px;
+		}
+		.tabContent1, .tabContent2 {
+			padding:15px;
+			overflow:hidden;
+			
+		}
+			.tabContent1 h2{
+				margin:15px 0 0 0;
+				padding-bottom:30px;	
+				color:#024d7f;
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size:20px;
+				
+			}
+			.un{
+				border-top:1px solid #a6dbff;	
+			}
+			.daydetail{
+				overflow:hidden;
+				clear:both;
+				padding:30px 0 20px 0;
+				border-top:1px solid #a6dbff;
+			}
+			.dayc{
+				width:57px;
+				height:57px;
+				float:left;
+				overflow:hidden;
+				font-size:14px;
+				font-weight:600;
+				margin-right:13px;
+				background:#005c99;
+				border:1px solid #01253c;
+				text-align:center;
+				color:#a2c5dc;
+				line-height:26px;
+			}
+				.dn{
+					color:#FFF;
+					font-size:24px;	
+				}
+			.dayinfo{
+				float:left;
+				overflow:hidden;
+				width:624px;
+			}
+				.desd{
+					font-size:13px;
+					font-weight:600;
+					color:#e14f00;
+					margin-bottom:20px;
+				}
+						/*For activity page*/
+					.desd h3{
+						margin:0;
+						padding:0;	
+					}
+								.finfo{
+									overflow:hidden;	
+								}
+								.desd h2{
+									margin:0;
+									padding:0;	
+								}
+					.desd a{
+						text-decoration:none;
+						color:#a40133;
+					}
+					.desd a:hover{
+						text-decoration:underline;
+						color:#00F;
+					}
+				.desinfo, .faqinfo{
+					margin-bottom:20px;
+				}
+					
+					.desinfo p, .faqinfo p{
+						margin:0;
+						padding:0;
+						color:#191919;
+						text-align:justify;	
+					}
+				.dayser{
+					overflow:hidden;
+					color:#306b2f;
+					
+					
+					height:32px;
+				}
+					.tick{
+						
+						float:left;
+						margin-right:40px;
+						padding:7px 0 2px 0;
+						color:#306b2f;
+						font-weight:600;
+					}
+				.pics{
+					overflow:hidden;
+					margin:30px 0;	
+					border-bottom:1px solid #CCC;
+					padding-bottom:10px;
+				}
+				.tmg{
+					float:left;
+					overflow:hidden;
+					padding:2px;
+					border:1px dotted #ccc;
+					margin:0 3px 2px 0;	
+				}
+					.tmg a{
+						text-decoration:none;
+					}
+					.tmg img{
+						margin:0;
+						border:0;
+					}
+			
+			
+			
+			
+.rcont{
+	float:left;
+	overflow:hidden;
+	width:230px;
+}	
+	.tfacts{
+		overflow:hidden;
+		background:url(img/trip-facts-bg.gif) repeat-x;
+		border:1px solid #aac4d5;
+		padding-top:10px;
+		border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+	}
+		.ftit{
+			background:#2d74a3;
+			text-align:center;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:16px;
+			height:23px;
+			padding-top:5px;
+			width:210px;
+			color:#FFF;
+			margin:0 10px;
+			border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		}
+		.fdet{
+			background:url(img/trip-facts-bg-b.gif) repeat-x 0 bottom;
+			padding:20px 20px 10px 20px;
+		}
+			.fdet p{
+				margin:0;
+				padding:0;
+			}
+	.tref{
+		overflow:visible;
+		background:#111;
+		height:280px;
+		padding:10px 8px 0 10px;
+		border-radius:10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		width:212px;
+	}
+		.trtit{
+			overflow:hidden;
+			color:#FFF;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:16px;
+			text-align:center;
+			line-height:24px;
+			margin-bottom:20px;
+		}
+		.trim{
+			overflow:visible;
+			width:230px;
+			background:#111;
+		}
+			.trim a{
+				display:block;
+				text-decoration:none;
+				float:left;	
+				margin:0 2px 0 0;
+				
+			}
+			.trim img{
+				border-bottom:2px solid #111;
+				margin:0;
+			}
+	.trm{
+		overflow:hidden;
+	}
+		.tmtit{
+			overflow:hidden;
+			color:#000;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:16px;
+			text-align:center;
+			line-height:24px;
+			margin-bottom:20px;
+		}
+		.tmap{
+			
+		}
+		
+/*Form*/
+.ginfo{
+	
+	overflow:hidden;
+	
+}	
+.ginfo h2{
+	margin:0 0 15px 25px;;
+	padding:0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#900;
+}
+	.reserve{
+	overflow:hidden;
+	border:1px solid #1c8dd9;
+	padding:20px;	
+}
+	.reserve h3{
+		margin:0 0 10px 0;
+		padding:0;	
+		font-family:"Times New Roman", Times, serif;
+		color:#36C;
+	}
+	
+.seg{
+	clear:both;
+	overflow:hidden;
+	
+}
+	.fl{
+		clear:both;
+		overflow:hidden;
+		padding:5px 0;
+	}
+	.fl label{
+		float:left;
+		width:100px;	
+	}
+	.fl input{
+		margin:0;
+		padding:0;
+		width:180px;
+		height:24px;
+	}
+		input#tripname{
+			width:400px;	
+		}
+		input#chkin, input#chkout{
+			float:left;	
+		}
+		input#desired, input#required{
+			width:15px;	
+			height:12px;
+		}
+		.fl img{
+			margin:0 0 0 5px;
+			float:left;
+				
+		}
+	.fl textarea{
+		margin:0;
+		padding:0;
+		width:615px;
+	}
+	.fl select{
+		margin:0;
+		padding:0;
+		height:24px;
+	}
+
+.needsfilled {
+	background:red;
+	color:white;
+}
+
+/*RightPlugins*/
+.rplugins{
+	overflow:hidden;	
+	margin:0 0 30px 0;
+}
+
+/*Activity Page*/
+.atrips{
+	overflow:hidden;
+	margin:0 20px;	
+	border-top:1px solid #a6dbff;
+	
+	padding:10px 0;
+}
+.tripinfo{
+	float:left;
+	overflow:hidden;
+	width:483px;
+	
+}
+.ticoimg{
+	float:left;
+	overflow:hidden;
+	margin-right:13px;
+	background:#f5f5f5;
+	border:1px solid #e8e8e8;
+	padding:3px;	
+}
+	.ticoimg img{
+		margin:0;
+		border:none;	
+	}
+.tfs{
+	overflow:hidden;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:1px dashed #39F;
+	color:#333;
+}
+	.bs{
+		float:left;
+		
+	}
+	.mgs{
+		float:left;
+	}
+.tdtpb{
+	clear:both;
+	overflow:hidden;
+	color:#FFF;
+	border-top:1px dashed #39F;
+	padding-top:5px;
+}
+	.nd{
+		float:left;
+		height:25px;
+		background:#000;
+		text-align:center;
+		padding:9px 15px 0 15px;
+		width:130px;
+		margin-right:1px;
+	}
+	.tpr{
+		float:left;
+		height:25px;
+		background:#aa0104;
+		text-align:center;
+		padding:9px 15px 0 15px;
+		width:130px;
+		margin-right:1px;
+	}
+	.btt{
+		float:left;
+	}
+		.btt a{
+			display:block;
+			height:25px;
+			background:#30C;
+			text-align:center;
+			padding:9px 15px 0 15px;
+			text-decoration:none;
+			color:#FFF;	
+			width:130px;
+			margin-right:1px;
+		}
+		.btt a:hover{
+			background:#336;
+		}

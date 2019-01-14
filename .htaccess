@@ -1,0 +1,17 @@
+#Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteRule ^$ index.php [L]
+
+RewriteRule ^dacadmin$ dacadmin/index.php [L]
+RewriteRule ^dacadmin/$ dacadmin/index.php [L]
+
+RewriteRule ^([a-zA-Z_0-9-]*)\.html$ index.php?urlcode=$1 [L]
+RewriteRule ^([a-zA-Z_0-9-]*)/\.html$ index.php?urlcode=$1 [L]
+
+RewriteRule ^([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)/\.html$ index.php?urlcode=$2&activitycode=$1 [L]
+RewriteRule ^([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)\.html$ index.php?urlcode=$2&activitycode=$1 [L]
+
+RewriteRule ^([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)\.html$ main.php?urlcode=$3&y=$2 [L]
+RewriteRule ^([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)/([a-zA-Z_0-9-]*)/\.html$ main.php?urlcode=$3&y=$2 [L]
